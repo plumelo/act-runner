@@ -1,4 +1,4 @@
-FROM catthehacker/ubuntu:act-latest
+FROM gitea/runner-images:ubuntu-latest
 
 USER root
 
@@ -17,7 +17,7 @@ RUN apt update && apt install -y \
   libxkbcommon0\
   libpango-1.0-0\
   libcairo2\
-  libasound2\
+  libasound2t64\
   libatspi2.0-0\
   libx11-xcb1\
   libxcursor1\
